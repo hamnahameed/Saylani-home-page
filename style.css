@@ -1,0 +1,335 @@
+*{
+
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+#topbar{
+    text-align: center;
+    padding: 1px;
+    background-color:royalblue;   
+}
+
+.btn{
+    display: inline-block;
+    margin: 10px;    
+}
+
+.icons{
+    margin: 10px;
+    display: inline-block;    
+      width: auto;
+    }
+
+    .icons i{
+        font-size: 20px;
+        color: white;
+        padding: 10px;
+    }
+    
+    p{
+        display: inline-block;
+        background-color:royalblue;
+        text-align: center;
+        margin: 10px;    
+    }
+
+    
+    .logo{
+        position: absolute;
+        left: 5px;
+        bottom: 470px;
+        
+
+    }
+
+    nav{
+
+        display: inline-block;
+        width: 100%;
+        padding: 1%;
+        background-color:whitesmoke;
+        
+    }
+    
+    nav ul{
+        padding: 2px;
+        list-style-type: none;
+        margin-left: 37%;
+        
+        
+    } 
+    nav ul li{
+        padding: 5px;
+        display: inline-block;
+        color: black;
+        
+        transition-duration: 0.7s;
+    }
+    nav ul li:hover{
+        background-color: blue;
+        color: white;
+        border-radius: 10px;
+        transition-duration: 0.3s;
+    
+        
+    
+    }
+.line{
+    background-color:royalblue;
+    color: bisque;
+}
+
+.main{
+    word-spacing: 2px;
+    width: 70%;
+    margin: 10px auto 10px auto;
+    padding: 10px;
+    background-color: beige;
+}
+h1{
+    text-align: center;
+    color: green;
+}
+.circle{
+    margin:10px;
+    padding: 2px;
+    position: absolute;
+    left: 37%;
+    top:93%;
+    
+}
+table{
+    background-color: blue;
+    width: 100%;
+    padding: 2px;
+    text-align: center;
+    color: white;
+    font-size: 110%; 
+    margin-top: 10%; 
+    margin-bottom: 3%; 
+}
+
+
+.num{
+    font-size: 250%;
+}
+
+
+.what{
+    font-size: 200%;
+    text-align: center;
+    color: green;
+    padding: 40px;
+    
+}
+
+.square{
+    position: absolute;
+    padding:20px;
+    left: 37%;
+    top: 249%;
+    
+    
+}
+
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: whitesmoke;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.A{
+   color:blue; 
+   border: 1px solid white;
+   background-color: white;
+   font-size: 150%;
+   text-align: center;
+   flex: 0.3;
+   padding: 20px 0px 5px 0px;
+}
+.B{
+    color:blue; 
+    border: 1px solid white;
+    background-color: white;
+    font-size: 150%;
+    text-align: center; 
+    flex: 0.3;
+    padding: 20px 0px 5px 0px;
+}
+.C{
+    color:blue; 
+    border: 1px solid white;
+    background-color: white;
+    font-size: 150%;
+    text-align: center; 
+    flex: 0.3;
+    padding: 20px 0px 5px 0px;
+   
+}
+
+.boxes one{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+.D{
+    color:blue; 
+    border: 1px solid white;
+    background-color: white;
+    font-size: 150%;
+    text-align: center; 
+    flex: 0.3;
+    padding: 20px 0px 5px 0px;
+}
+.E{
+    padding: 20px 0px 5px 0px;
+    color:blue; 
+    border: 1px solid white;
+    background-color: white;
+    font-size: 150%;
+    text-align: center; 
+    flex: 0.3;
+}
+.F{
+    color:blue; 
+    border: 1px solid white;
+    background-color: white;
+    font-size: 150%;
+    text-align: center;
+    flex: 0.3; 
+    padding: 20px 0px 5px 0px;
+}
+
+
+.mission{
+    color: royalblue;
+    background-color: white;
+    font-size: 20px;
+    width: 70%;
+    float: left;
+    margin-left: 5%;
+    
+    
+}
+
+
+.boxx{
+    width: 100%;
+       
+}
+
+ .alpha{
+    display: flex;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.beta{
+    display: flex;
+    box-sizing: border-box;
+    text-align :center;   
+}
+
+
+
+.asd{
+    width: 40%;
+    height: 100px;
+    text-align: center;
+    border: 1px solid blue;
+    background-color: whitesmoke;
+    margin:10px;
+    padding:30px;    
+}
+
+.asd i{
+    font-size: 30px;
+}
+
+.upcoming{
+    width: 20%;
+    height: 280px;;
+    color: black;
+    background-color: white;
+    display: inline-block;
+    font-size: 15px;  
+    
+ 
+}
+
+.imggg{
+display: block;
+margin-top: 10%;
+border: 1px solid whitesmoke;
+}
+
+.triangle{
+    position: absolute;
+    left: 39%;
+    top: 385%;
+}
+
+.more{
+    border: 1px solid white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer{
+    background-color:  #333333;
+    color:white;
+    margin-top: 10%;
+}
+
+.links{
+    display: inline-block;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 600px;
+}
+
+
+.con{
+    display: inline-block;
+    text-align: right;
+    margin-left: 200px;
+    margin-top: 20px;
+    
+}
+.repeat{
+    margin-left: 900px;
+    letter-spacing: 12px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+
+
+#last{
+    background-color:royalblue;
+    color: white;
+    padding: 5px 2px 5px 30px ;
+    font-size: 15px;
+}
+
+.dropdown{
+     color: blue;
+}
+
+
+
+
+
